@@ -240,6 +240,8 @@ Risk scoring
 
 
 # 📂 Repository Structure
+
+
 telco-customer-churn-analysis/
 │
 ├── README.md
@@ -253,6 +255,7 @@ telco-customer-churn-analysis/
 └── screenshots/
     ├── executive_overview.png
     └── customer_risk_analysis.png
+
 
 
 ## 📁 Project Files
