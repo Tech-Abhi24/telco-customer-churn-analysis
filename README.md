@@ -61,11 +61,11 @@ Interactive Business Insights
 
 
 
-## 📊 Power BI Dashboard
+# 📊 Power BI Dashboard
 
 The Power BI report contains two main pages.
 
-1. Telco Customer Churn Analysis
+## 1. Telco Customer Churn Analysis
 
 The first page provides an overall view of customer churn.
 
@@ -91,7 +91,7 @@ Churn Label
 
 Users can select different categories to explore how the customer base and churn metrics change.
 
-2. Customer Risk Analysis
+## 2. Customer Risk Analysis
 
 The second page focuses on customer value and churn-related risk.
 
@@ -110,7 +110,7 @@ Churn-related customer filtering
 
 The page combines customer value and churn indicators to provide a more detailed view of customers who may require further analysis.
 
-📈 Selected Dashboard Metrics
+## 📈 Selected Dashboard Metrics
 
 The current dashboard displays approximately:
 
@@ -125,7 +125,7 @@ Revenue at Risk	834.79K
 
 These values represent the current dashboard view. Interactive filters can change the displayed results.
 
-🔍 Key Analysis
+## 🔍 Key Analysis
 Contract Analysis
 
 The project compares churn across different contract types.
@@ -139,7 +139,7 @@ Two year	2.83%
 
 This analysis helps identify differences in churn behaviour across contract structures.
 
-Tenure Analysis
+## Tenure Analysis
 
 Customers are grouped into four tenure ranges:
 
@@ -161,7 +161,7 @@ The project compares customer churn across available payment methods.
 
 This analysis is used to identify differences in churn behaviour between payment categories.
 
-Service Analysis
+## Service Analysis
 
 The project analyses churn across individual telecom services, including:
 
@@ -176,7 +176,7 @@ Tech Support
 
 Service-level data was transformed in Power Query to support consistent service-based analysis in Power BI.
 
-💰 Customer Value & Revenue Analysis
+## 💰 Customer Value & Revenue Analysis
 
 Customer value is analysed using CLTV and monthly charges.
 
@@ -194,7 +194,7 @@ The current dashboard reports approximately:
 
 Revenue at Risk: 834.79K
 
-⚠️ Customer Risk Analysis
+## ⚠️ Customer Risk Analysis
 
 A customer risk score was developed using multiple customer-level indicators.
 
@@ -209,7 +209,7 @@ Payment method
 
 The purpose of the score is to create a structured way to identify customers with multiple churn-related risk indicators.
 
-🧮 SQL Analysis
+## 🧮 SQL Analysis
 
 The PostgreSQL analysis is available in:
 
@@ -237,7 +237,9 @@ Customer segmentation
 Cohort-style analysis
 Revenue analysis
 Risk scoring
-📂 Repository Structure
+
+
+# 📂 Repository Structure
 telco-customer-churn-analysis/
 │
 ├── README.md
@@ -251,7 +253,10 @@ telco-customer-churn-analysis/
 └── screenshots/
     ├── executive_overview.png
     └── customer_risk_analysis.png
-📁 Project Files
+
+
+## 📁 Project Files
+
 sql/churn_analysis.sql
 
 Contains the PostgreSQL queries used for:
@@ -265,7 +270,9 @@ Service analysis
 CLTV analysis
 Revenue exposure
 Customer risk analysis
-powerbi/telco_churn_dashboard.pbix
+
+
+# powerbi/telco_churn_dashboard.pbix
 
 Contains the complete interactive Power BI report with:
 
@@ -275,11 +282,14 @@ Charts
 Slicers
 Customer risk analysis
 Interactive page navigation
-screenshots/
+
+
+# screenshots/
 
 Contains screenshots of the completed Power BI dashboard for quick viewing directly from GitHub.
 
-❓ Business Questions Explored
+
+# ❓ Business Questions Explored
 
 The project addresses questions such as:
 
@@ -295,7 +305,9 @@ How much monthly revenue is exposed to churn?
 How can multiple customer attributes be combined into a risk score?
 Which customer segments require further investigation?
 How does customer value relate to churn-related indicators?
-💡 Project Outcome
+
+
+# 💡 Project Outcome
 
 This project demonstrates an end-to-end data analytics workflow:
 
@@ -315,13 +327,13 @@ Interactive Business Reporting
 
 The final result combines detailed SQL analysis with an interactive Power BI report, allowing both the underlying analytical process and the final business presentation to be reviewed.
 
-📌 Data Note
+# 📌 Data Note
 
 The project uses a telecommunications customer churn dataset containing customer demographics, services, contract information, billing information, customer value indicators, and churn-related fields.
 
 The raw dataset is not included in this repository.
 
-##👤 Author
+## 👤 Author
 
 Abhishek Verma
 
